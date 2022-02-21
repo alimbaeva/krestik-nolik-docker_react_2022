@@ -19,17 +19,17 @@ body {
   
   .square {
     background: #fff;
-    border: 1px solid #999;
+    border: 2px solid rgb(112, 4, 4);
     float: left;
     font-size: 24px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 54px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 54px;
   }
   
   .square:focus {
@@ -46,6 +46,18 @@ body {
   }
   
   .game-info {
-    margin-left: 20px;
+    margin-left: 80px;
   }
-  
+  .game-info div{
+      font-size: 20px;
+      font-weight: 900;
+  }
+ol li button{
+    width: 220px;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid rosybrown;
+
+}  
